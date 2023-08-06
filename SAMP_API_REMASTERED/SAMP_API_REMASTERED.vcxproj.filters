@@ -1,0 +1,1257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="memwrapper\hde\hde32.cpp">
+      <Filter>memwrapper\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\_findfirst.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\BitStream.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\CheckSum.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\CommandParserInterface.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\ConsoleServer.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\DataBlockEncryptor.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\DataCompressor.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\DS_ByteQueue.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\DS_HuffmanEncodingTree.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\DS_Table.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\GetTime.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\InternalPacketPool.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\LinuxStrings.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\LogCommandParser.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\NetworkIDGenerator.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\NetworkTypes.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\PluginInterface.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\RakClient.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\RakNetCommandParser.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\RakNetStatistics.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\RakNetworkFactory.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\RakPeer.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\RakSleep.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\Rand.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\ReliabilityLayer.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\rijndael.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\RPCMap.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\SHA1.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\SimpleMutex.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\SocketLayer.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\StringCompressor.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\StringTable.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\SystemAddressList.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\SystemDatabaseClient.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\SystemDatabaseServer.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\RakNet\TableSerializer.cpp">
+      <Filter>SAMP\RakNet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\samp_netencr.cpp">
+      <Filter>SAMP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="SAMP\SAMP.hpp">
+      <Filter>SAMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\AimStuff.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\Animation.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CActor.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CActorPool.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CAudio.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CAudioStream.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CCamera.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CChat.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CChatBubble.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CConfig.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CDeathWindow.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CDialog.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CEntity.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CFonts.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CGame.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CGangZonePool.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CHelpDialog.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CHttpClient.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CInput.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CLabel.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CLabelPool.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CLicensePlate.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CLocalPlayer.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CMenu.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CMenuPool.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CNetGame.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CNetStats.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CObject.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CObjectEdit.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CObjectMaterialText.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CObjectPool.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CObjectSelection.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\Commands.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\ControllerState.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CPed.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CPickupPool.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CPlayerInfo.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CPlayerPool.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CPlayerTags.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CRemotePlayer.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CScoreboard.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CSpawnScreen.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CSrvNetStats.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CTextDraw.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CTextDrawPool.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CTextDrawSelection.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CVehicle.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\CVehiclePool.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\Debug.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\DebugScript.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\Exception.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\GUI.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\InputHandler.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\KeyStuff.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\RPC.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\Scripting.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\Settings.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\SpecialAction.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\Synchronization.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R1\VehicleSelection.h">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\AimStuff.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\Animation.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CActor.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CActorPool.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CAudio.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CAudioStream.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CCamera.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CChat.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CChatBubble.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CConfig.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CDeathWindow.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CDialog.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CEntity.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CFont.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CFonts.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CGame.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CGangZonePool.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CHelpDialog.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CHttpClient.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CInput.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CLabel.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CLabelPool.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CLicensePlate.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CLocalPlayer.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CMenu.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CMenuPool.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CNetGame.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CNetStats.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CObject.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CObjectEdit.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CObjectMaterialText.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CObjectPool.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CObjectSelection.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\Commands.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\ControllerState.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CPed.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CPickupPool.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CPlayerInfo.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CPlayerPool.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CPlayerTags.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CRemotePlayer.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CScoreboard.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CSpawnScreen.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CSrvNetStats.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CTextDraw.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CTextDrawPool.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CTextDrawSelection.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CVehicle.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\CVehiclePool.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\DebugScript.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\Exception.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\GUI.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\InputHandler.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\KeyStuff.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\RPCHandlers.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\Scripting.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\Settings.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\SpecialAction.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R3-1\Synchronization.h">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\AimStuff.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\Animation.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CActor.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CActorPool.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CAudio.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CAudioStream.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CCamera.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CChat.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CChatBubble.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CConfig.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CDeathWindow.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CDialog.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CEntity.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CFont.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CFonts.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CGame.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CGangZonePool.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CHelpDialog.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CHttpClient.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CInput.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CLabel.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CLabelPool.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CLicensePlate.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CLocalPlayer.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CMenu.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CMenuPool.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CNetGame.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CNetStats.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CObject.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CObjectEdit.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CObjectMaterialText.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CObjectPool.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CObjectSelection.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\Commands.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\ControllerState.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CPed.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CPickupPool.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CPlayerInfo.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CPlayerPool.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CPlayerTags.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CRemotePlayer.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CScoreboard.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CSpawnScreen.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CSrvNetStats.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CTextDraw.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CTextDrawPool.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CTextDrawSelection.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CVehicle.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\CVehiclePool.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\DebugScript.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\Exception.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\GUI.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\InputHandler.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\KeyStuff.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\RPCHandlers.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\Scripting.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\Settings.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\SpecialAction.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\0.3.7-R5-1\Synchronization.h">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\AimStuff.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\Animation.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CActor.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CActorPool.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CAudio.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CAudioStream.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CCamera.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CChat.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CChatBubble.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CConfig.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CDeathWindow.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CDialog.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CEntity.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CFont.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CFonts.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CGame.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CGangZonePool.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CHelpDialog.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CHttpClient.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CInput.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CLabel.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CLabelPool.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CLicensePlate.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CLocalPlayer.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CMatrix.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CMenu.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CMenuPool.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CNetGame.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CNetStats.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CObject.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CObjectEdit.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CObjectMaterialText.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CObjectPool.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CObjectSelection.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\Commands.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\ControllerState.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CPed.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CPickupPool.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CPlayerInfo.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CPlayerPool.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CPlayerTags.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CPoint.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CRect.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CRemotePlayer.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CScoreboard.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CSpawnScreen.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CSrvNetStats.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CTextDraw.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CTextDrawPool.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CTextDrawSelection.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CVector.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CVehicle.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\CVehiclePool.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\Debug.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\DebugScript.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\Exception.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\GUI.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\InputHandler.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\KeyStuff.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\RPC.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\RPCHandlers.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\sampapi.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\Scripting.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\Settings.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\SpecialAction.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\Synchronization.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\API\VehicleSelection.h">
+      <Filter>SAMP\API</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\d3d9.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\d3d9caps.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\d3d9types.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\d3dx9.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\d3dx9anim.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\d3dx9core.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\d3dx9effect.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\d3dx9math.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\d3dx9mesh.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\d3dx9shader.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\d3dx9shape.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\d3dx9tex.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\d3dx9xof.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="memwrapper\memwrapper.h">
+      <Filter>memwrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="memwrapper\x86\memwrapper_allocator.hpp">
+      <Filter>memwrapper\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="memwrapper\x86\memwrapper_basic.hpp">
+      <Filter>memwrapper\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="memwrapper\x86\memwrapper_detail.hpp">
+      <Filter>memwrapper\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="memwrapper\x86\memwrapper_hook.hpp">
+      <Filter>memwrapper\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="memwrapper\x86\memwrapper_llmo.hpp">
+      <Filter>memwrapper\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="memwrapper\hde\hde32.h">
+      <Filter>memwrapper\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="memwrapper\hde\table32.h">
+      <Filter>memwrapper\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\_findfirst.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\AutopatcherPatchContext.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\AutopatcherRepositoryInterface.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\BigTypes.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\BitStream.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\CheckSum.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\ClientContextStruct.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\CommandParserInterface.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\ConsoleServer.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\DataBlockEncryptor.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\DataCompressor.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\DS_BinarySearchTree.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\DS_BPlusTree.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\DS_ByteQueue.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\DS_Heap.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\DS_HuffmanEncodingTree.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\DS_HuffmanEncodingTreeFactory.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\DS_HuffmanEncodingTreeNode.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\DS_LinkedList.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\DS_List.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\DS_Map.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\DS_MemoryPool.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\DS_OrderedChannelHeap.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\DS_OrderedList.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\DS_Queue.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\DS_QueueLinkedList.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\DS_RangeList.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\DS_Table.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\DS_Tree.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\DS_WeightedGraph.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\Export.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\GetTime.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\InternalPacket.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\InternalPacketPool.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\LinuxStrings.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\LogCommandParser.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\MTUSize.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\multiplayer.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\NetworkIDGenerator.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\NetworkTypes.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\PacketEnumerations.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\PacketPriority.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\PluginInterface.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\RakAssert.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\RakClient.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\RakClientInterface.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\RakNetCommandParser.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\RakNetDefines.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\RakNetStatistics.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\RakNetworkFactory.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\rakpeer.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\rakpeerinterface.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\RakSleep.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\Rand.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\ReliabilityLayer.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\Replica.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\ReplicaEnums.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\rijndael.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\rijndael-boxes.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\RouterInterface.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\RPCMap.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\RPCNode.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\RSACrypt.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\SHA1.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\SimpleMutex.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\SimpleTCPServer.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\SingleProducerConsumer.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\SocketLayer.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\StringCompressor.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\StringTable.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\systemaddresslist.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\SystemDatabaseClient.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\SystemDatabaseServer.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\TableSerializer.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\ThreadPool.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\TransportInterface.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\RakNet\Types.h">
+      <Filter>SAMP\RakNet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\samp_netencr.h">
+      <Filter>SAMP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SAMP">
+      <UniqueIdentifier>{d08a6e6d-b2f3-48c0-907f-19af3c40a3e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SAMP\API">
+      <UniqueIdentifier>{31cead8b-8808-44fc-a700-4e45677e52cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SAMP\API\0.3.7-R1">
+      <UniqueIdentifier>{5bbe029d-e9c8-41ac-9c84-bf369a91d771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SAMP\API\0.3.7-R3-1">
+      <UniqueIdentifier>{77a3288e-213b-45fe-a5c9-300d6ff8c7f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SAMP\API\0.3.7-R5-1">
+      <UniqueIdentifier>{23343f8a-2774-4315-be71-5b650526b48a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{92779f0d-a568-448c-b191-9f4bfcd9530a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{74889cfa-de86-468c-8a71-470e49ab2b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memwrapper">
+      <UniqueIdentifier>{96cf4f1a-ce41-48f7-ac6a-d5b05600f1f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memwrapper\hde">
+      <UniqueIdentifier>{d33faa86-f80e-460f-9ce8-ce7db465d709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memwrapper\x86">
+      <UniqueIdentifier>{53ded7f0-b9a5-4211-8341-23d131aba095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SAMP\RakNet">
+      <UniqueIdentifier>{4f992f81-8582-4964-aacf-5acc3832125e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="SAMP\API\0.3.7-R1\CMakeLists.txt">
+      <Filter>SAMP\API\0.3.7-R1</Filter>
+    </Text>
+    <Text Include="SAMP\API\0.3.7-R3-1\CMakeLists.txt">
+      <Filter>SAMP\API\0.3.7-R3-1</Filter>
+    </Text>
+    <Text Include="SAMP\API\0.3.7-R5-1\CMakeLists.txt">
+      <Filter>SAMP\API\0.3.7-R5-1</Filter>
+    </Text>
+    <Text Include="SAMP\API\CMakeLists.txt">
+      <Filter>SAMP\API</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DirectX\d3dx9math.inl">
+      <Filter>DirectX</Filter>
+    </None>
+  </ItemGroup>
+</Project>
