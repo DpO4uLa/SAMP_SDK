@@ -22,7 +22,7 @@ auto __stdcall D3DPresentHook(SAMP::CallBacks::HookedStructs::stPresentParams* p
 	ImGui_ImplWin32_NewFrame();
 	ImGui::NewFrame();
 
-	if (ImGui::Begin(u8"Тестовое окно", 0, ImGuiWindowFlags_AlwaysAutoResize | ImGuiWindowFlags_NoSavedSettings))
+	if (ImGui::Begin(u8"Test menu", 0, ImGuiWindowFlags_AlwaysAutoResize | ImGuiWindowFlags_NoSavedSettings))
 	{
 		std::uint16_t uStreamedPlayers{};
 		for (std::uint16_t i = 0; i != 1000; i++)
