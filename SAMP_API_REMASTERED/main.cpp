@@ -2,6 +2,30 @@
 
 bool bIsPluginInitialized = false;
 
+auto __stdcall RakClientSendHook(SAMP::CallBacks::HookedStructs::stRakClientSend* params) -> bool
+{
+
+	return true;
+}
+
+auto __stdcall RakClientRecvHook(SAMP::CallBacks::HookedStructs::stRakClientRecv* params) -> bool
+{
+
+	return true;
+}
+
+auto __stdcall RakClientRPCSendHook(SAMP::CallBacks::HookedStructs::stRakClientRPC* params) -> bool
+{
+
+	return true;
+}
+
+auto __stdcall RakClientRPCRecvHook(SAMP::CallBacks::HookedStructs::stRakClientRPCRecv* params) -> bool
+{
+
+	return true;
+}
+
 auto __stdcall WndProcCallBack(SAMP::CallBacks::HookedStructs::stWndProcParams* params) -> LRESULT
 {
 	if (!bIsPluginInitialized)
@@ -70,6 +94,11 @@ auto __stdcall GameLoop(void) -> void
 			ImGui_ImplWin32_Init(GetActiveWindow());
 			ImGui_ImplDX9_Init(SAMP::CallBacks::pCallBackRegister->GetIDirect3DDevice9());
 			ImGui::GetIO().ConfigFlags |= ImGuiConfigFlags_NoMouseCursorChange;
+
+			*SAMP::CallBacks::pCallBackRegister += RakClientSendHook; // registering an outgoing packet handler
+			*SAMP::CallBacks::pCallBackRegister += RakClientRecvHook; // registering an incoming packet handler
+			*SAMP::CallBacks::pCallBackRegister += RakClientRPCSendHook; // registering an outgoing RPC handler
+			*SAMP::CallBacks::pCallBackRegister += RakClientRPCRecvHook; // registering an incoming RPC handler
 
 			SAMP::pSAMP->addMessageToChat(-1, "plugin loaded. target sa-mp version: %s", SAMP::str_samp_ver[SAMP::ver].c_str());
 
