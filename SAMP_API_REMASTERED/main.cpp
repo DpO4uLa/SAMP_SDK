@@ -22,17 +22,21 @@ auto __stdcall D3DPresentHook(SAMP::CallBacks::HookedStructs::stPresentParams* p
 	ImGui_ImplWin32_NewFrame();
 	ImGui::NewFrame();
 
-	std::uint16_t uStreamedPlayers{};
-	for (std::uint16_t i = 0; i != 1000; i++)
-		if (SAMP::pSAMP->getPlayers()->IsPlayerStreamed(i))
-			uStreamedPlayers++;
+	if (ImGui::Begin(u8"Тестовое окно", 0, ImGuiWindowFlags_AlwaysAutoResize | ImGuiWindowFlags_NoSavedSettings))
+	{
+		std::uint16_t uStreamedPlayers{};
+		for (std::uint16_t i = 0; i != 1000; i++)
+			if (SAMP::pSAMP->getPlayers()->IsPlayerStreamed(i))
+				uStreamedPlayers++;
 
-	std::uint16_t uStreamedVehicles{};
-	for (std::uint16_t i = 0; i != 2000; i++)
-		if (SAMP::pSAMP->getVehicles()->IsVehicleStreamed(i))
-			uStreamedVehicles++;
+		std::uint16_t uStreamedVehicles{};
+		for (std::uint16_t i = 0; i != 2000; i++)
+			if (SAMP::pSAMP->getVehicles()->IsVehicleStreamed(i))
+				uStreamedVehicles++;
 
-	ImGui::Text(u8"Streamed players: %d\nStreamed vehicles: %d", uStreamedPlayers, uStreamedVehicles);
+		ImGui::Text(u8"Streamed players: %d\nStreamed vehicles: %d", uStreamedPlayers, uStreamedVehicles);
+		ImGui::End();
+	}
 
 	ImGui::EndFrame();
 	ImGui::Render();
