@@ -94,7 +94,7 @@ auto __stdcall GameLoop(void) -> void
 			ImGui_ImplWin32_Init(GetActiveWindow());
 			ImGui_ImplDX9_Init(SAMP::CallBacks::pCallBackRegister->GetIDirect3DDevice9());
 			ImGui::GetIO().ConfigFlags |= ImGuiConfigFlags_NoMouseCursorChange;
-
+			
 			*SAMP::CallBacks::pCallBackRegister += RakClientSendHook; // registering an outgoing packet handler
 			*SAMP::CallBacks::pCallBackRegister += RakClientRecvHook; // registering an incoming packet handler
 			*SAMP::CallBacks::pCallBackRegister += RakClientRPCSendHook; // registering an outgoing RPC handler

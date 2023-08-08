@@ -1087,6 +1087,7 @@ namespace SAMP
 		auto getPlayers(void) { return g_pAPIPlayerPool; };
 		auto getVehicles(void) { return g_pAPIVehiclePool; };
 		auto getStreamedOutPlayerInfo(void) { return g_StreamedOutPlayerInfo; };
+		auto getMisc(void) { return g_pMisc; };
 
 		CRakNet* getRakNet(void) { return g_RakNet; };
 
@@ -1181,6 +1182,8 @@ namespace SAMP
 			g_pAPIPlayerPool = nullptr;
 			delete g_pAPIVehiclePool;
 			g_pAPIVehiclePool = nullptr;
+			delete g_pMisc;
+			g_pMisc = nullptr;
 		};
 		CSAMP(std::uintptr_t base)
 		{ 
@@ -1188,9 +1191,52 @@ namespace SAMP
 			g_StreamedOutPlayerInfo = new stStreamedOutPlayerInfo;
 			g_pAPIPlayerPool = new stAPIPlayerPool;
 			g_pAPIVehiclePool = new stAPIVehiclePool;
+			g_pMisc = new stMISC;
 		};
 		std::uintptr_t GetBase() { return sampAddr; };
 	private:
+		struct stMISC
+		{
+			void EnableCursor() {
+				switch (SAMP::ver)
+				{
+					case SAMP::samp_ver::v037r1: {
+						SAMP::API::v037r1::RefInputBox()->EnableCursor();
+						break;
+					}
+					case SAMP::samp_ver::v037r31: {
+						SAMP::API::v037r3::RefInputBox()->EnableCursor();
+						break;
+					}
+					case SAMP::samp_ver::v037r51: {
+						SAMP::API::v037r5::RefInputBox()->EnableCursor();
+						break;
+					}
+				}
+			};
+			void SetCursorMode(int nMode, SAMP::API::BOOL bImmediatelyHideCursor) {
+				switch (SAMP::ver)
+				{
+					case SAMP::samp_ver::v037r1:
+					{
+						SAMP::API::v037r1::RefGame()->SetCursorMode(nMode, bImmediatelyHideCursor);
+						break;
+					}
+					case SAMP::samp_ver::v037r31:
+					{
+						SAMP::API::v037r3::RefGame()->SetCursorMode(nMode, bImmediatelyHideCursor);
+						break;
+					}
+					case SAMP::samp_ver::v037r51:
+					{
+						SAMP::API::v037r5::RefGame()->SetCursorMode(nMode, bImmediatelyHideCursor);
+						break;
+					}
+				}
+			};
+			
+			
+		} *g_pMisc;
 		struct stAPIPlayerPool {
 			CPed* GetCPedFromSAMPPlayerID(std::uint16_t playerID) {
 				if (playerID > 1000)
