@@ -1429,7 +1429,7 @@ namespace SAMP
 		} *g_pAPIPlayerPool;
 		struct stAPIVehiclePool {
 			CVehicle* GetCVehicleFromSAMPVehicleID(std::uint16_t vehicleID) {
-				if (vehicleID > 2000)
+				if (vehicleID > SAMP_MAX_VEHICLES)
 					return nullptr;
 
 				switch (SAMP::ver)
