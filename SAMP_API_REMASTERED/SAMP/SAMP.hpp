@@ -420,8 +420,8 @@ struct stDamageData
 };
 struct stStreamedOutPlayerInfo
 {
-	int		iPlayerID[1004];
-	float	fPlayerPos[1004][3];
+	int		iPlayerID[SAMP_MAX_PLAYERS];
+	float	fPlayerPos[SAMP_MAX_PLAYERS][3];
 };
 #pragma pack(pop)
 
@@ -1581,7 +1581,7 @@ SAMP::CallBacks::CCallbackRegister::Packet__* __fastcall SAMP::CallBacks::CCallb
 
 			bs.IgnoreBits(8);
 			bs.Read(iNumberOfPlayers);
-			if (iNumberOfPlayers >= 0 || iNumberOfPlayers <= 1004) {
+			if (iNumberOfPlayers >= 0 || iNumberOfPlayers <= SAMP_MAX_PLAYERS) {
 				for (int i = 0; i < iNumberOfPlayers; i++)
 				{
 					bs.Read(playerID);
