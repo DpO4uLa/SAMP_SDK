@@ -49,12 +49,12 @@ auto __stdcall D3DPresentHook(SAMP::CallBacks::HookedStructs::stPresentParams* p
 	if (ImGui::Begin(u8"Test menu", 0, ImGuiWindowFlags_AlwaysAutoResize | ImGuiWindowFlags_NoSavedSettings))
 	{
 		std::uint16_t uStreamedPlayers{};
-		for (std::uint16_t i = 0; i != 1000; i++)
+		for (std::uint16_t i = 0; i != SAMP_MAX_PLAYERS; i++)
 			if (SAMP::pSAMP->getPlayers()->IsPlayerStreamed(i))
 				uStreamedPlayers++;
 
 		std::uint16_t uStreamedVehicles{};
-		for (std::uint16_t i = 0; i != 2000; i++)
+		for (std::uint16_t i = 0; i != SAMP_MAX_VEHICLES; i++)
 			if (SAMP::pSAMP->getVehicles()->IsVehicleStreamed(i))
 				uStreamedVehicles++;
 
